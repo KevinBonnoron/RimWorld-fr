@@ -144,7 +144,8 @@
     <li>introduction->A [joiner_age]-year-old [joiner_title]</li>
   -->
   <ThreatReward_MysteryThreat_Joiner.questDescriptionRules.rulesStrings>
-    <li>questDescription->[introduction] du nom de [joiner_nameDef] appelle d'une zone voisine. [joiner_pronoun] vous supplie de lui laisser vous rejoindre à [map_definite].[joiner_relationInfo]\n\nUne menace d'origine mystérieuse poursuit [joiner_nameDef], mais [joiner_pronoun] ne veut pas dire ce que c'est ou quand cela pourrait arriver. [joiner_pronoun] ne veut pas non plus vous en dire plus sur [joiner_objective]-même.</li>
+  <!-- NOTE: "de [joiner_accusative]" utilise un espace insécable pour éviter l'élision "de le->du" -->
+    <li>questDescription->[introduction] du nom de [joiner_nameDef] appelle d'une zone voisine. [joiner_pronoun] vous supplie de [joiner_accusative] laisser vous rejoindre à [map_definite].[joiner_relationInfo]\n\nUne menace d'origine mystérieuse poursuit [joiner_nameDef], mais [joiner_pronoun] ne veut pas dire ce que c'est ou quand cela pourrait arriver. [joiner_pronoun] ne veut pas non plus vous en dire plus sur [joiner_objective]-même.</li>
     <li>joiner_supposed(joiner_gender==Male)->supposé</li>
     <li>joiner_supposed(joiner_gender==Female)->supposée</li>
     <li>joiner_supposed(joiner_gender==None)->supposé</li>
@@ -163,6 +164,9 @@
     <li>joiner_followed(joiner_gender==Male)->poursuivi</li>
     <li>joiner_followed(joiner_gender==Female)->poursuivie</li>
     <li>joiner_followed(joiner_gender==None)->poursuivi</li>
+    <li>joiner_accusative(joiner_gender==Male)->le</li>
+    <li>joiner_accusative(joiner_gender==Female)->la</li>
+    <li>joiner_accusative(joiner_gender==None)->le</li>
     <li>enemyFaction_leader_accusative(enemyFaction_leader_gender==Male)->le</li>
     <li>enemyFaction_leader_accusative(enemyFaction_leader_gender==Female)->la</li>
     <li>enemyFaction_leader_accusative(enemyFaction_leader_gender==None)->le</li>

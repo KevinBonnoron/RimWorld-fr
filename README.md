@@ -50,7 +50,7 @@ Ici l'inconvénient c'est que vous ne pourrez pas modifier directement le reposi
 
  - Créez un utilisateur sur GitHub.com.
 
- - Faites un fork du repository et travaillais sur votre version.
+ - Faites un fork du repository et travaillez sur votre version.
 
  - Faites régulièrement des pull request et si la validation tarde à arriver relancer l'équipe sur le Discord
 
